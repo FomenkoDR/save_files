@@ -1,0 +1,12 @@
+name: Daily Action-Demo
+
+on:
+    push:
+
+
+jobs:
+    Daily-Save:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Code
+              uses: actions/checkout@v4
